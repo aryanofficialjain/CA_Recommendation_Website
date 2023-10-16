@@ -20,12 +20,12 @@ const Nav = () => {
           <div className="links flex items-center justify-between gap-5 mr-auto hidden lg:flex">
             <div className="link-box flex">
               <a href="#">Solutions</a>
-              <img src="/arrow.svg" alt="" />
+              <img src="img/arrow.svg" alt="" />
             </div>
 
             <div className="link-box flex">
               <a href="#">Features</a>
-              <img src="/arrow.svg" alt="" />
+              <img src="img/arrow.svg" alt="" />
             </div>
 
             <div className="link-box flex">
@@ -34,7 +34,7 @@ const Nav = () => {
 
             <div className="link-box flex">
               <a href="#">About</a>
-              <img src="/arrow.svg" alt="" />
+              <img src="img/arrow.svg" alt="" />
             </div>
           </div>
 
@@ -56,15 +56,15 @@ const Nav = () => {
       </div>
 
       {isOpen && ( // Conditionally render the mobile menu
-        <div className="navlink-mobile flex flex-col gap-4 bg-slate-200 absolute w-full py-8 px-8">
+        <div className="navlink-mobile flex flex-col gap-4 bg-slate-200 absolute w-full py-8 px-8 z-50">
           <div className="link-box-mobile flex">
             <a href="#">Solutions</a>
-            <img src="src/arrow.svg" alt="" />
+            <img src="img/arrow.svg" alt="" />
           </div>
 
           <div className="link-box-mobile flex">
             <a href="#">Features</a>
-            <img src="src/arrow.svg" alt="" />
+            <img src="img/arrow.svg" alt="" />
           </div>
 
           <div className="link-box-mobile flex">
@@ -73,11 +73,11 @@ const Nav = () => {
 
           <div className="link-box-mobile flex">
             <a href="#">About</a>
-            <img src="src/arrow.svg" alt="" />
+            <img src="img/arrow.svg" alt="" />
           </div>
 
           <div className="navbtn  flex gap-5 w-38">
-            <button className="bg-yellow-500 bg-white text-custom-color py-1.5 px-4 border-2 border-custom-color rounded-md">
+            <button className=" bg-white text-custom-color py-1.5 px-4 border-2 border-custom-color rounded-md">
               Login
             </button>
             <button className="bg-custom-color text-white py-1.5 px-4 border-2 border-custom-color rounded-md">
