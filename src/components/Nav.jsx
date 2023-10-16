@@ -14,7 +14,7 @@ const Nav = () => {
       <div className="navbar-container h-[85px] max-w-6xl mx-auto flex items-center justify-between py-3">
         <div className="navbar w-full h-full flex items-center justify-between">
           <div className="logo w-44 px-4">
-            <img src="/logo.png" alt="" className="w-full" />
+            <img src="img/logo.png" alt="" className="w-full" />
           </div>
 
           <div className="links flex items-center justify-between gap-5 mr-auto hidden lg:flex">
