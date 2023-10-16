@@ -39,7 +39,7 @@ const Nav = () => {
           </div>
 
           <div className="navbtn flex gap-5 w-38 p-3 hidden lg:flex">
-            <button className="bg-yellow-500 bg-white text-custom-color py-1.5 px-4 border-2 border-custom-color rounded-md">
+            <button className=" bg-white text-custom-color py-1.5 px-4 border-2 border-custom-color rounded-md">
               Login
             </button>
             <button className="bg-custom-color text-white py-1.5 px-4 border-2 border-custom-color rounded-md">
