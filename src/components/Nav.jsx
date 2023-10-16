@@ -14,18 +14,18 @@ const Nav = () => {
       <div className="navbar-container h-[85px] max-w-6xl mx-auto flex items-center justify-between py-3">
         <div className="navbar w-full h-full flex items-center justify-between">
           <div className="logo w-44 px-4">
-            <img src="src/logo.png" alt="" className="w-full" />
+            <img src="/logo.png" alt="" className="w-full" />
           </div>
 
           <div className="links flex items-center justify-between gap-5 mr-auto hidden lg:flex">
             <div className="link-box flex">
               <a href="#">Solutions</a>
-              <img src="src/arrow.svg" alt="" />
+              <img src="/arrow.svg" alt="" />
             </div>
 
             <div className="link-box flex">
               <a href="#">Features</a>
-              <img src="src/arrow.svg" alt="" />
+              <img src="/arrow.svg" alt="" />
             </div>
 
             <div className="link-box flex">
@@ -34,7 +34,7 @@ const Nav = () => {
 
             <div className="link-box flex">
               <a href="#">About</a>
-              <img src="src/arrow.svg" alt="" />
+              <img src="/arrow.svg" alt="" />
             </div>
           </div>
 
@@ -59,12 +59,12 @@ const Nav = () => {
         <div className="navlink-mobile flex flex-col gap-4 bg-slate-200 absolute w-full py-8 px-8">
           <div className="link-box-mobile flex">
             <a href="#">Solutions</a>
-            <img src="./src/assets/arrow.svg" alt="" />
+            <img src="src/arrow.svg" alt="" />
           </div>
 
           <div className="link-box-mobile flex">
             <a href="#">Features</a>
-            <img src="./src/assets/arrow.svg" alt="" />
+            <img src="src/arrow.svg" alt="" />
           </div>
 
           <div className="link-box-mobile flex">
@@ -73,7 +73,7 @@ const Nav = () => {
 
           <div className="link-box-mobile flex">
             <a href="#">About</a>
-            <img src="./src/assets/arrow.svg" alt="" />
+            <img src="src/arrow.svg" alt="" />
           </div>
 
           <div className="navbtn  flex gap-5 w-38">
