@@ -3,8 +3,9 @@ import React from 'react'
 const Hero = () => {
   return (
     <>
-        <div className="hero-container max-w-7xl mt-[40px] mx-auto h-full  ">
-            <div className="hero w-[100%]  md:w-[94%] ml-auto py-5 px-1 ">
+        <div className="hero-container max-w-7xl mt-[40px] mx-auto h-full ">
+          
+            <div className="hero w-[100%]  md:w-[94%] ml-auto py-7 px-1 ">
               <div className="hero mx-auto flex items-center justify-between  flex-col xl:flex-row gap-9">
                
                 <div className="left-container h-[60vh] w-full md:w-[70%] flex z-20">

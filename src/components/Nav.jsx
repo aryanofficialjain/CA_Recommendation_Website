@@ -11,7 +11,9 @@ const Nav = () => {
 
   return (
     <>
-      <div className="navbar-container h-[85px] max-w-6xl mx-auto flex items-center justify-between py-3">
+    
+      <div className="navbar-container h-[85px] max-w-6xl mx-auto flex items-center justify-between py-3 bg-white">
+        
         <div className="navbar w-full h-full flex items-center justify-between">
           <div className="logo w-44 px-4">
             <img src="img/logo.png" alt="" className="w-full" />
@@ -84,6 +86,7 @@ const Nav = () => {
               Register
             </button>
           </div>
+          
         </div>
       )}
     </>
