@@ -1,4 +1,8 @@
 import React from 'react'
+import hero1 from '/img/hero1.png'
+import hero2 from '/img/hero2.png'
+import hero3 from '/img/hero3.png'
+
 
 const Hero = () => {
   return (
@@ -36,15 +40,15 @@ const Hero = () => {
                   <div className="right flex p-1 gap-1 sm:gap-6 w-full ">
                     
                     <div className="first-img w-30 sm:w-40">
-                      <img src="img/hero1.png" alt="" className='relative bottom-0' />
+                      <img src={hero1} alt="" className='relative bottom-0' />
                     </div>
 
                     <div className="second-img w-30 sm:w-40">
-                      <img src="img/hero2.png"  alt="" className='relative bottom-16' />
+                      <img src={hero2}  alt="" className='relative bottom-16' />
                     </div>
 
                     <div className="third-img w-30 sm:w-40">
-                      <img src="img/hero3.png" alt="" className='relative bottom-8' />
+                      <img src={hero3} alt="" className='relative bottom-8' />
                     </div>
 
                   </div>
