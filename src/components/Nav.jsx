@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import arrow from '/img/arrow.svg';
+import logo from '/img/logo.png';
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,18 +18,18 @@ const Nav = () => {
         
         <div className="navbar w-full h-full flex items-center justify-between">
           <div className="logo w-44 px-4">
-            <img src="img/logo.png" alt="" className="w-full" />
+            <img src={logo} alt="" className="w-full" />
           </div>
 
           <div className="links flex items-center justify-between gap-5 mr-auto hidden lg:flex">
             <div className="link-box flex">
               <a href="#">Solutions</a>
-              <img src="img/arrow.svg" alt="" />
+              <img src={arrow} alt="" />
             </div>
 
             <div className="link-box flex">
               <a href="#">Features</a>
-              <img src="img/arrow.svg" alt="" />
+              <img src={arrow} alt="" />
             </div>
 
             <div className="link-box flex">
@@ -36,7 +38,7 @@ const Nav = () => {
 
             <div className="link-box flex">
               <a href="#">About</a>
-              <img src="img/arrow.svg" alt="" />
+              <img src={arrow} alt="" />
             </div>
           </div>
 
@@ -61,12 +63,12 @@ const Nav = () => {
         <div className="navlink-mobile flex flex-col gap-4 bg-slate-200 absolute w-full py-8 px-8 z-50">
           <div className="link-box-mobile flex">
             <a href="#">Solutions</a>
-            <img src="img/arrow.svg" alt="" />
+            <img src={arrow} alt="" />
           </div>
 
           <div className="link-box-mobile flex">
             <a href="#">Features</a>
-            <img src="img/arrow.svg" alt="" />
+            <img src={arrow} alt="" />
           </div>
 
           <div className="link-box-mobile flex">
@@ -75,7 +77,7 @@ const Nav = () => {
 
           <div className="link-box-mobile flex">
             <a href="#">About</a>
-            <img src="img/arrow.svg" alt="" />
+            <img src={arrow} alt="" />
           </div>
 
           <div className="navbtn  flex gap-5 w-38">
