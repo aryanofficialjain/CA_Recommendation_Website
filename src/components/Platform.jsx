@@ -10,86 +10,79 @@ import Platform2 from '/img/platform2.png'
 const Platform = () => {
   return (
     <>
-    
       <div className="platform-container w-full ">
-        <div className="platform p-28  w-[100%] flex">
-            <div className="left-container  w-[50%]">
-                <div className="left flex flex-col gap-4 ">
+        <div className="platform p-10 md:p-28 flex ">
+            <div className="container flex-col xl:flex-row flex ">
+                <div className="left  text-center xl:text-left xl:w-[50%] flex flex-col gap-8 ">
                     
-                    <div className="heading text-5xl py-2 ">
+                    <div className="heading text-xl sm:text-5xl py-2 ">
                     <span className='bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text'>All-in-One</span> platform <br/>that Makes Easier
                     </div>
 
-                    <div className="para text-xl w-[100%] mx-auto  py-7 font-thin">
+                    <div className="para text-sm font-normal md:text-xl w-[100%] mx-auto  py-7 md:font-thin">
                         <p>We are more than a platform; We are your success partner. Discover our services to achieve your business and educational goals</p>
                     </div>
-
-                    <div className="left-bottom ">
-                            <div className="left-item flex  p-2  w-[100%]">
-                            <div className='flex gap-2'>
-                                <img src={Search} alt="" />
-                                <p><span>Search</span> for vital <br/> company <br/> information</p>
+                    
+                    <div className="left-bottom max-w-[95%] mx-auto ">
+                        <div className="top flex flex-wrap text-left items-center justify-evenly p-2">
+                            <div className='flex gap-1 mb-3'>
+                                <img src={Search} alt=""  className='w-[20%] sm:w-[40%]'/>
+                                <p className='font-medium'><span className='font-bold'>SEARCH</span> for <br/>vital company <br/>information</p>
                             </div>
-                            <div className='flex gap-2'>
-                                <img src={Connect} alt="" />
-                                <p><span>Connect</span> with the<br/> resources to meet<br/> your business needs.</p>
+                            <div className='flex gap-1'>
+                                <img src={Connect} alt="" className='w-[20%] sm:w-[40%]'/>
+                                <p className='font-medium'><span className='font-bold'>CONNECT</span> with the <br/> resources to meet<br/> your business needs</p>
                             </div>
-                            </div>
-                            
-                            <br/>
-                            <div className="right-items flex  p-2 w-[100%]">
-                            
-                            <div className='flex gap-2'>
-                                <img src={Research} alt="" />
-                                <p><span>Research</span> and <br/> generate reports <br/> that drive growth</p>
-                            </div>
-                            <div className='flex gap-2'>
-                                <img src={Acadamy} alt="" />
-                                <p><span className=''>Academy</span> to give you <br/> the skills for success <br/>  in your career</p>
-                            </div>
-
-                        
-
                         </div>
+                    
+
+                        <div className="bottom flex flex-wrap gap-4 text-left items-center justify-evenly p-2">
+                            <div className='flex gap-1 mb-3'>
+                                <img src={Research} alt="" className='w-[20%] sm:w-[40%]' />
+                                <p className='font-medium'><span className='font-bold'>RESEARCH</span> and<br/> generate reports <br/>that drive growth</p>
+                            </div>
+                            <div className='flex gap-1'>
+                                <img src={Acadamy} alt="" className='w-[20%] sm:w-[40%]' />
+                                <p className='font-medium'><span className='font-bold'>ACADEMY</span> to give you<br/> the skills for success <br/> in your career</p>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
-            </div>
-            
 
-            <div className="right-container  w-[50%] p-2">
-                <div className="right ">
-                    <div className="top w-full flex items-center gap-4 mb-4">
+                <div className="right w-full xl:w-[50%]  py-5 ">
+                <div className='flex w-[93%] mx-auto items-center justify-evenly'>
+                    <div className='text-[12px] flex flex-col gap-3'>
+                        <p className='p-2 rounded-2xl bg-pink-100'>Hey, check out loreumipsum services. </p>
+                        <p className='p-2 rounded-2xl bg-pink-100'>I learned from their videos, got my first job.</p>
+                        <p className='p-2 rounded-2xl bg-pink-100'>You won't be disappointed with their services.</p>
+                    </div>
+                    <div className='w-50%'>
+                        <img src={Platform1} alt="" className='rounded-full' />
                         
-                        <div className='text-[11px] w-1/2'>
-                            <p className='p-3 bg-pink-100 rounded-2xl mb-2'>Hey, check out loreumipsum services. </p>
-                            <p className='p-3 bg-pink-100 rounded-2xl mb-2'>I learned from their videos, got my first job.</p>
-                            <p className='p-3 bg-pink-100 rounded-2xl mb-2'>You won't be disappointed with their services.</p>
-                            
-                        </div>
-                        <div className=' rounded-full w-1/2'>
-                            <img src={Platform1} alt="" className='rounded-full bg-gray-300 px-7 w-[80%] py-2' />
-                        </div>
                     </div>
-                    
-                    <div className="bottom flex items-center ">
-                    <div className=' rounded-full w-1/2'>
-                            <img src={Platform2} alt="" className='rounded-full bg-gray-300 px-7 py-2 w-[80%]' />
-                        </div>
+                </div>
 
-                    <div className='text-[11px]'>
-                        <p className='p-3 shadow-md bg-pink-50 rounded-2xl mb-2'>I got a perfect analysis report from them too</p>
-                            <p className='p-3 shadow-md bg-pink-50 rounded-2xl mb-2'>Oh, that's great.</p>
-                        </div>
+                <div className='flex flex-row-reverse w-[93%]  mx-auto items-center justify-evenly'>
+                    <div className='text-[12px] flex flex-col gap-3'>
+                        <p className='p-2 rounded-2xl bg-blue-200'>I got a perfect analysis report from them too</p>
+                        <p className='p-2 rounded-2xl bg-blue-200'>Oh, that's great.</p>
                     </div>
-                    
 
+                    <div className='w-50%'>
+                        <img src={Platform2} alt="" className='rounded-full' />
+                    </div>
+                      
+                    </div>
                 </div>
             </div>
-        </div>
-      </div>
+        </div> 
+    </div>
     </>
+
   )
 }
 
 export default Platform
+
