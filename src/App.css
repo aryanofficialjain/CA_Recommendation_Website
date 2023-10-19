@@ -7,5 +7,23 @@ font-family: Poppins;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+scroll-behavior: smooth;
+scrollbar-arrow:hidden;
+
+}
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Optional: Style the scrollbar track and thumb */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
 }
 

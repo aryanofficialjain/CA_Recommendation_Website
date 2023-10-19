@@ -9,11 +9,11 @@ const Join = () => {
             
           <div className="join-heading text-center font-Poppins text-2xl sm:text-3xl md:text-5xl font-bold  p-2 mb-24">
             <h2 className="mb-2 ">
-              Want to{" "}
-              <span className="bg-gradient-to-r from-[#0076CE] via-[#9400D3] bg-clip-text text-transparent font-Poppins text-5xl font-bold">
-                Join{" "}
-              </span>{" "}
-              Us?
+              Want to 
+              <span className="bg-gradient-to-r from-[#0076CE] via-[#9400D3] bg-clip-text text-transparent font-Poppins text-5xl font-bold p-2">
+                Join
+              </span> 
+               Us?
             </h2>
             <p className="text-center font-Poppins text-base font-normal leading-[38px]">
               To remain with us, it is essential that you diligently follow the
@@ -128,7 +128,7 @@ const Join = () => {
                 <h3 className="text-center font-Poppins text-lg font-bold">
                 DPT-3</h3>
                 <p className="text-sm text-center">
-                Companies report money taken from people to ROC; auditors confirm details.                </p>
+                Companies report money taken from people to ROC; auditors confirm details.</p>
                 </div>
                 
 
@@ -222,6 +222,10 @@ const Join = () => {
 
         </div>
 
+        <div className="join-para mt-7 mb-7">
+          <p>* For forms AOC-4 and MGT-7, you will be charged a penalty of ₹200 
+            <span className="text-bold">every day</span> until you file the form . There is no maximum penalty amount. So, if you don't file the form for a year, you will owe ₹73,000 per form</p>
+        </div>
         
 
 

@@ -3,6 +3,7 @@ import './App.css'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Join from './components/Join'
+import Platform from './components/Platform'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <Nav/>    
     <Hero/>
     <Join/>
+    <Platform/>
     </>
   )
 }
